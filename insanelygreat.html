@@ -1,0 +1,1255 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Quizzo</title>
+  <link rel="stylesheet" href="insanelygreat.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Halant:600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body id="full">
+    
+    <!--PART - 1-->
+     
+    <div id="welcome-message">Quizzo</div>
+   <!--~~~~~~~~~~The button belwo is the start of the page.When user clicks on this button he/she will get the instructions mentioned below along with the timer~~~~~~~~~~~~~~~~~~~~~~~-->
+ <div id="welcome-button">
+  <input id="15-seconds" onclick="begin()" value="Start Quiz" type="button">
+    </div>
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Here's the instructions along with the timer~~~~~~~~~~~~~~~~~~~~~-->
+    
+  <div id="timer1">
+    <div id="time">
+      <b></b>
+          </div>
+     
+       <div id="instructions">
+    
+        <h2>Please read the following instructions carefully before attempting the quiz</h2>
+        
+          <br>
+           
+            <div id="list">     
+           
+              <ul>
+                  
+                  
+                 <li>The quiz contain 15 questions which has 10 MCQ's,3 Fill Ups and 2 Short Answer questions
+                      from unit 1 of physics class 12 </li>
+                    <br>
+                  
+                 <li> You have 15 minutes to solve the quiz.</li>
+                   
+                    <br>
+               
+                 <li> The quiz has a total of 13 marks.You can click submit button to get your result or it will be displayed automatically when the time's up </li>
+                  
+                
+             </ul>
+            
+            <h3 id="welcome-quiz">#Happy Quiz..</h3>
+               
+            <h3 id="welcome-quiz">Made by Utkarsh Malhotra</h3>
+           
+         </div>
+    
+      </div>
+ 
+  </div>
+    
+  <!--PART - 1 ENDS-->
+    
+  <!--PART 2 BEGINS-->
+    
+ <div id="ready">
+    
+                 </div>
+<!--The code below is for the Quiz -->
+    
+ <form id="quiz" name="quiz">
+        
+     <div id="quizzo">
+     
+            <h2 id="part1">Part-1 MCQ</h2>
+                      
+                  <div id="questions1">
+                          
+                                1) What is the difference between workdone in moving a particle from on
+                                point to another in equipotencial surface ?    
+                         </div>
+
+                   <!-- Common Questions div-->
+    
+                                <div id="options1">
+                          
+                                 <input type="radio" name="option1" value="Zero" class="bmc">Zero
+                                 <input type="radio"  name="option1" value="Positive" class="bmc" >Positive
+                                 <input type="radio" name="option1" value="Negative" class="bmc">Negative
+                                 <input type="radio" name="option1" value="W2-W1" class="bmc">W<sub>2</sub>-W<sub>1</sub>
+                            </div>
+              
+                  <!--Common div for all options-->
+  
+                    <div id="questions2">  
+                                    
+                                    2) Name the physical quantity whose SI unit is J/c ?
+                             </div>  
+                  
+                 <!-- Common Questions div-->
+    
+                       
+                                 <div id="options2">
+                          
+                                 <input type="radio" name="option2" value="Force ">Force
+                                 <input type="radio"  name="option2" value="Potencial" >Potencial
+                                 <input type="radio"  name="option2" value="Capacitance">Capacitance
+                                 <input type="radio" name="option2" value="Current">Current
+                            </div>
+         
+                <!--Common div for all options-->
+    
+                  <div id="questions3">
+                               
+                               3)What is the electric potencial due to an electric dipole at an equilateral point ?
+                        </div> 
+                
+               <!-- Common Questions div-->
+    
+    
+    
+                                 <div id="options3">
+                          
+                                 <input type="radio" name="option3" value="Zero">Zero
+                                 <input type="radio"  name="option3" value="Positive" >Positive
+                                 <input type="radio"  name="option3" value="Negative">Negative
+                                 <input type="radio" name="option3" value="None of the options">None of the options
+                            </div>
+              <!--Common div for all options-->
+    
+    
+                 <div id="questions4">
+                         
+                               4) A 500 X 10<sup>-6</sup> charge is at the cetre of a square of side 10cm .
+                                Find the work done in moving 10<sup>-5</sup> coulomb of charge 
+                                between two diagonaly opposite points on the square ?
+                        </div>
+              <!-- Common Questions div-->
+        
+    
+    
+    
+                                 <div id="options4">
+                          
+                                 <input type="radio" name="option4" value="58">5 X 10 <sup>-8</sup>
+                                 <input type="radio"  name="option4" value="5 Joule" >5 Joule
+                                 <input type="radio"  name="option4" value="450 Joule">450 Joule
+                                 <input type="radio" name="option4" value="Zero">Zero
+                            </div>
+              <!--Common div for all options-->
+    
+    
+    
+                 <div id="questions5">
+   
+                                    5) The potencial of earth is taken to be zero because earth is a good ___
+                            </div>
+                 <!-- Common Questions div-->
+    
+    
+                                 <div id="options5">
+                          
+                                 <input type="radio" name="option5" value="Insulator">Insulator
+                                 <input type="radio"  name="option5" value="Conductor" >Conductor
+                                 <input type="radio"  name="option5" value="Dielectric">Dielectric
+                                 <input type="radio" name="option5" value="Semiconductor">Semiconductor
+                            </div>
+              <!--Common div for all options-->
+    
+    
+      
+                 <div id="questions6">
+                                 
+                                6) A electric charge q is placed at the point of instrection of body diagonals of a cube.The electric flux passing through any one of it's face is___
+                            </div>
+                 <!-- Common Questions div-->
+    
+    
+                                 <div id="options6">
+                          
+                                 <input type="radio" name="option6" value="q/6E">q/6E<sub>o</sub> 
+                                 <input type="radio"  name="option6" value="3q/E" >3q/E<sub>o</sub>
+                                 <input type="radio"  name="option6" value="6q/E">6q/E<sub>o</sub>
+                                 <input type="radio" name="option6" value="q/3E">q/3E<sub>o</sub>
+                            </div>
+              <!--Common div for all options-->
+    
+    
+    
+               <div id="questions7">
+                               
+                                7) Does the charge of a metallic sphere on whether is it hollow or solid ?
+                           </div>
+                <!-- Common Questions div-->
+    
+    
+                                 <div id="options7">
+                          
+                                 <input type="radio" name="option7" value="Yes">Yes          
+                                 <input type="radio"  name="option7" value="No" > No 
+                                 <input type="radio"  name="option7" value="Sometimes"> Sometimes
+                                 <input type="radio" name="option7" value="None of the Options">None of the Options
+                            </div>
+              <!--Common div for all options-->
+    
+    
+    
+              <div id="questions8">
+                               
+                                8) What is the angle between P and E for  the dipole in a stable and unstable equilibirium 
+                         </div>
+                <!-- Common Questions div-->
+    
+    
+                                 <div id="options8">
+                          
+                                 <input type="radio" name="option8" value="A"> 90<sup>.</sup>and 180<sup>.</sup>        
+                                 <input type="radio"  name="option8" value="B" >   0<sup>.</sup>and90<sup>.</sup>
+                                 <input type="radio"  name="option8" value="C">0<sup>.</sup>and 180<sup>.</sup>
+                                 <input type="radio" name="option8" value="D"> 180<sup>.</sup>and 90<sup>.</sup>
+                            </div>
+              <!--Common div for all options-->
+                      
+    
+             <div id="questions9">
+                               
+                                9) Electric Dipole is equal to 
+                           </div>
+                <!-- Common Questions div-->
+                
+    
+                                 <div id="options9">
+                          
+                                 <input type="radio" name="option9" value=" 2q x a"> 2q x a  
+                                 <input type="radio"  name="option9" value="q x 2a " >q x 2a 
+                                 <input type="radio"  name="option9" value="q x a ">q x a 
+                                 <input type="radio" name="option9" value="qa/2">q x a/2
+                            </div>
+              <!--Common div for all options-->
+                       
+    
+        
+             <div id="questions10">
+                               
+                                10) Two point charges having equal  charges seperated  by 1 m distance experience a force  of 8N . What will be the force experience by them if they are held in water at the same distance ?[K<sub>water</sub> = 80]
+                           </div>
+                <!-- Common Questions div-->
+    
+    
+    
+    
+                                  <div id="options10">
+                            
+                                  <input type="radio" name="option10" value="1/20">1/20 N
+                                  <input type="radio"  name="option10" value="10" > 10 N
+                                  <input type="radio"  name="option10" value="1/8">1/8 N 
+                                 <input type="radio" name="option10" value="1/10">1/ 10 N 
+                            </div>
+          
+                          <br>
+                     <br> 
+              <!--Common div for all options-->
+    
+<!--That's all for MCQ part...Now Comes The Fill Ups Part...Part2...Let's Make It Insanely Great..-->
+
+                 <!--Begin Fill Ups-->
+               
+      <h2 id="part2">Part-2 Fill Ups </h2>
+            
+          <div id="fillUps">
+              
+              <div id="f1">
+              
+                     11) The SI Unit of Potencial is  <input id="f11" name="f1" placeholder="Please Fill Me.." type="text">
+                 </div>
+                        <br>
+     
+             <div id="f2">
+              
+                     12) Electric dipole is a  <input id="f22" name="f2" placeholder="Please Fill Me.." type="text">  quantity
+                </div>
+                      <br>
+                 
+             <div id="f3">
+              
+                    13) Work done in an equipotencial surface is <input  id="f33" name="f3" placeholder="Please Fill Me.." type="text">
+               </div>
+                     <br>
+     
+         </div>
+         
+         <br>
+    <br> 
+              <!--Fill Ups HTML LAST and COMMON DIV-->
+    
+         <!--Now we will start with one word questions-->
+        
+     <h2 id="part3">Part-3 Short Questions</h2>
+    
+         <div id="one-word-questions">
+                
+             <div id="q1">
+                 
+                     14) Why do Electrostatic lines not form close loops ?
+                 </div>
+            
+              <div id="a1">
+               
+                   ans 14) The Electrostatic field lines do not form closed loop because
+                
+                 <span id="plus" onclick="readMore()">
+                                             
+                   Read more >>
+                
+               </span>
+             
+            <span id="ultra" style="visibility:hidden;">                                                                              
+                   no electric fields lines exist inside the charged body.
+                                                                          
+                 </span>
+             
+                  <span id="beyond"onclick="readLess()" style="display: none;">
+                                              
+                   Read Less>>
+                                
+                </span>
+              
+          </div>
+               <br>
+              
+             
+              <div id="q2">
+             
+                     15) Why do Electric field lines never instersect each other ?
+                </div>
+               
+        
+              <div id="a2">  
+                   ans 15) At the instersection point
+             
+            <span id="go" onclick="readMore2()">
+                
+                   Read more>>
+     <!--~~~~~~~~~~~~~~The Read More Button~~~~~~~~~~-->
+               </span>
+             
+                    <span id="ultra2" style="visibility:hidden;">
+                   
+                   there would be two directions of electric field at one point which is not possible.
+     <!--~~~~~~~~~~~~~~~The Text To add with Read More~~~~~~~~~~-->
+             </span>
+             
+             <span id="beyond2"onclick="readLess2()" style="display: none;">
+                    Read Less>>
+    <!--~~~~~~~~~~~~~~~~The Read Less Button~~~~~~~~~~-->     
+                   </span>
+               
+                </div>    
+
+             </div>
+        
+            <div id ="button" onclick="check()">
+         
+          <input id="button2" type="button" value="Submit">
+ 
+         </div>
+     
+       </div>
+    
+  </form>
+    
+    <!--~~~~~~~~~~~~~~~One Word Questions Finished~~~~~~~~~~~~~~~-->
+<!--PART 2 ENDS-->
+    
+  <!--PART 3 BEGINS-->  
+
+  
+         <div id="10-second-timer">
+    
+              </div>
+    
+                    <br>
+    
+               <div id="10-second-timer2.o">
+    
+         </div>
+    
+ <!--Result Time...-->
+    
+         <div id="score">
+                         
+              </div>
+                   
+                    <br>
+                         <br>
+    
+    
+<!--~~~~~~~~~Here We Will Give a remark to user based on the score he or she get.~~~~~~~~~~~~~~~~~-->
+           
+          <div id="remark">
+    
+      </div>     
+                    
+    <br>
+    
+<br>
+    
+                
+        
+       
+<!--~~~~~~~~~~After the remark we will tell the user about his/her wrong answer~~~~~~~~~~~~~~~~~~~~-->
+    <div id="galat">
+              
+            <div id="wrong">
+    
+                            </div>
+                           
+                                 <br>
+    
+                       <div id="wrong1">
+    
+                 </div>
+    
+              <br>
+    
+<div id="wrong2">
+ 
+
+                </div>
+                       
+                     <br>
+    
+                       <div id="wrong3">
+    
+                  </div>         
+        
+              <br>
+    
+<div id="wrong4">
+    
+                 </div>        
+    
+                        <br>
+    
+                          <div id="wrong5">
+    
+                     </div>         
+     
+                 <br>
+    
+<div id="wrong6">
+    
+                 </div>         
+        
+                       <br>
+    
+                           <div id="wrong7">
+    
+                     </div>         
+         
+                 <br>
+    
+<div id="wrong8">
+    
+                </div>        
+            
+                     <br>
+    
+                        <div id="wrong9">
+    
+                  </div>        
+     
+               <br>
+    
+<div id="wrong10">
+    
+                  </div>
+       
+                        <br>
+    
+                          <div id="wrong11">
+    
+                     </div>
+    
+                 <br>
+    
+<div id="wrong12">
+    
+                 </div>
+    
+                      <br>
+    
+                        <div id="wrong13">
+    
+                  </div>
+          
+            </div>
+    
+    
+    <!--Part-3-Ends-->
+<script type="text/javascript">
+    //The code below contains SCRIPTcode for the timer of 10 seconds which link to quiz and 15 minutes timer
+ 
+                  var seconds = 31
+    
+  function begin ()
+{
+                  var myvar = setTimeout(begin,1000);
+ 
+    //The timer that offer instructions before the quiz  
+     
+    seconds--;
+
+     document.getElementById("time").innerHTML= "Your quiz is starting in"+" "+"0"+" "+ ":"+" "+seconds+" "+"seconds";
+    
+//~~~~~~~~~~~~When the button clicked the button will disappear and instructions will appear~~~~~~~~~~~~~~~~
+    
+    document.getElementById("instructions").style.display="block";
+    document.getElementById("15-seconds").style.display="none";
+ document.getElementById("time").style.display="block";
+//~~~~~~~~~~~When seconds is less than 10 ,It will get a zero before the number of seconds~~~~~~~~~~~~~//
+    
+if(seconds < 10)
+        
+{
+   document.getElementById("time").innerHTML= "Your quiz is starting in"+" "+"0"+" "+ ":"+" "+"0"+seconds+" "+"seconds";   
+}
+    
+//~~~~~~~When the timer is zero quiz will appear and timer will disappear along with the instructions~~~~~~//
+
+if(seconds === 0)
+     
+{ 
+    //When seconds reaches zero timer stops and disappear along with instructions and then appear here we go mate on the screen as a welcome message , it also disappears in 1.5 seconds = 1500 milliseconds 
+    document.getElementById("instructions").style.display="none";
+        clearTimeout(myvar); // It is for stop the 20 secs timer
+    document.getElementById("quizzo").style.display="block";//QUIZZ0
+        setTimeout(function pirate(){document.getElementById("time").style.display="none";},1000)
+    document.getElementById("time").innerHTML= "Here We go..Mate";                      
+    //It is for welcome message
+            
+
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Now We will with the start 15 minutes timer~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~//
+
+ 
+                     var secondsth = 60    
+      var minutes = 14
+                    window.onload = ultimate
+ var ultimate =setInterval(master,1000)
+ 
+ function master()
+{
+    
+secondsth--;
+
+  document.getElementById("ready").innerHTML= " Your quiz ends in"+" "+ minutes+" "+"mins"+" "+":"+" "+secondsth+" "+"secs"
+    
+
+if(secondsth === 0)
+    
+{ 
+    secondsth = secondsth+ 60
+    minutes--;
+    
+if(minutes < 10 &&  minutes >= 0)
+    
+{
+        minutes = "0" + minutes ;
+    
+}
+    
+}
+        
+if(secondsth < 10)
+    
+{
+ 
+  document.getElementById("ready").innerHTML= " Your quiz ends in"+" "+ minutes+" "+"minutes"
++" :"+" "+"0"+secondsth+" "+"seconds"   
+
+    
+} 
+    
+if(minutes === -1)
+        
+{   //Timer is Over Quiz is gone
+   
+  document.getElementById("ready").innerHTML="Oops Time Up"
+  document.getElementById("quizzo").style.display="none";         
+    
+    //Result Time Bro....when timer hit zero...
+    
+    clearInterval(ultimate)
+    
+         
+    var result = 11
+
+    var run = setInterval(after,1000)
+    function after()
+{
+  result--;
+    
+  document.getElementById("10-second-timer").innerHTML="Thanks for playing"+"."+" "+"Displaing your result in "+" "+result+
+   " "+ "seconds";
+  if(result === 0)
+  {
+      clearInterval(run)
+   document.getElementById("10-second-timer2.o").innerHTML= "Result is here"; 
+   
+  //CHECKING TIME...
+                                            var correct = 0 
+var questions1 = document.quiz.option1.value;
+    
+                                            var questions2 = document.quiz.option2.value;
+
+var questions3 = document.quiz.option3.value;
+                                           
+                                            var questions4 = document.quiz.option4.value;
+
+var questions5 = document.quiz.option5.value;
+
+                                            var questions6 = document.quiz.option6.value;
+
+var questions7 = document.quiz.option7.value;
+
+                                            var questions8 = document.quiz.option8.value;
+
+var questions9 = document.quiz.option9.value;
+          
+                                            var questions10 = document.quiz.option10.value;
+
+var questions11= document.getElementById("f11").value;
+    
+                                                    var questions12 = document.getElementById("f22").value;
+
+var questions13 = document.getElementById("f33").value;
+  
+  
+  
+  if( questions1==="Zero")
+{
+   correct++
+}
+            else
+            { 
+              document.getElementById("wrong1").innerHTML="Question 1"
+            }
+    
+if( questions2==="Potencial")
+{
+  correct++
+}
+            else
+            {
+              document.getElementById("wrong2").innerHTML="Question 2"
+             }         
+       
+    
+if(questions3==="Zero")
+{
+   correct++
+}
+          else
+          {
+            document.getElementById("wrong3").innerHTML="Question 3"
+          }    
+    
+
+if(questions4==="Zero")
+{
+ correct++
+}
+         else
+         {
+           document.getElementById("wrong4").innerHTML="Question 4"
+         }    
+    
+    
+if(questions5==="Conductor")
+{
+   correct++
+}
+        else
+        {
+          document.getElementById("wrong5").innerHTML="Question 5"
+        } 
+    
+if(questions6==="q/6E")
+{
+  correct++
+}
+       else
+       {
+         document.getElementById("wrong6").innerHTML="Question 6"
+       }    
+    
+    
+if(questions7==="No")
+{
+   correct++
+}
+       else
+      {
+        document.getElementById("wrong7").innerHTML="Question 7"
+      }    
+if(questions8==="C")
+{
+ correct++
+}
+     else
+     {
+       document.getElementById("wrong8").innerHTML="Question 8"
+     }
+    
+if(questions9==="q x 2a ")
+{
+   correct++
+}
+    else
+    {
+      document.getElementById("wrong9").innerHTML="Question 9"
+    }      
+                
+if(questions10==="1/10")
+{
+ correct++
+}
+     else
+    {
+      document.getElementById("wrong10").innerHTML="Question 10"
+    }
+    
+/*If Else For Fill Ups #Checking.Begins..hmmmm..............................................................
+......................................We add more than one conditon to simplify the users need for the same*/
+
+if(questions11==="volt"|| questions11==="Volt" || questions11==="VOLT")
+{
+ correct++
+}
+     else
+     {
+       document.getElementById("wrong11").innerHTML="Question11"
+     }
+    
+ if(questions12==="Vector"||questions12==="vector"|| questions12==="VECTOR")
+{
+ correct++
+}
+    else
+    {
+      document.getElementById("wrong12").innerHTML="Question12"           
+    }
+    
+if(questions13==="0"||questions13==="zero"||questions13==="Zero"||questions13==="ZERO")
+{
+ correct++
+}
+    else
+    {
+      document.getElementById("wrong13").innerHTML="Question13"            
+    }
+    
+/* Here comes the result time we will gave a number out of 13 to the user~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~based on the correct answer he or she will get */
+ document.getElementById("score").innerHTML="You have scored"+" "+ correct+" "+"out of 13"
+
+
+if(correct===0)
+    
+{
+ 
+    document.getElementById("remark").innerHTML="My Friend,Your score is quite less but you have enough time to improve and score good .You just have to do combine two things HardWork and Consistency"
+
+}
+
+    
+if(correct==1)
+    
+{
+    
+         document.getElementById("remark").innerHTML="Man,You need to take your studies more seriously.Your score is not so good.But you can improve your score if you want.Just do one thing  that is Study..All the Best for your exams."
+
+}
+    
+if(correct===2)
+    
+{
+     document.getElementById("remark").innerHTML="You have to take your studies seriously .Dude.It's now or never time.In these last moments either you can work hard and get good marks or filled with regrets at result time .Well one thing is certain  the choice is yours So is your result.All the Best Mate.I know you can do it."
+
+}
+    
+if(correct===3)
+    
+{
+    document.getElementById("remark").innerHTML="Your score is below average.Don't Worry Even  If you don't study anything until now ,You can still score good marks.Just Believe in Yourself and Study Regularly. Give it your best shot.All the Best."
+
+}
+    
+if(correct===4)
+
+{
+     document.getElementById("remark").innerHTML="You can get a perfect score .You need to make your concepts strong and hell lot of practice to do questions in exam."
+
+}
+    
+if(correct===5)
+
+{
+    document.getElementById("remark").innerHTML="Do not worry.Just Try Harder.Clear Your Concepts and do a hell lot of practice"
+
+}
+    
+if(correct===6)
+
+{
+  document.getElementById("remark").innerHTML="You have a basic knowledge but still you have to brush up your concepts for the exam and combine it with a lot of practice...Then you will get what you call  a perfect 10."   
+
+}
+    
+if(correct===7)
+
+{
+     document.getElementById("remark").innerHTML="Well you got an average score.Still it means you have some basic knowledge about the concepts,Just require a lot of  practice"
+
+}
+    
+if(correct===8)
+
+{
+      document.getElementById("remark").innerHTML="Well your score is good.Your concept is good but require some practice to score a perfect 13"
+
+}
+    
+if(correct===9)
+
+{
+     document.getElementById("remark").innerHTML="That's a nice score you got there .Keep Going like this with a little more effort ,you can rck the paper"
+
+}
+    
+if(correct===10)
+
+{
+    document.getElementById("remark").innerHTML="You Preparation is going well.But Require a some practice to get a perfect score "      
+
+}
+    
+if(correct===11)
+    
+{
+    document.getElementById("remark").innerHTML="That's a quite nice score .You got there ..Just a little hardwork and then you will score a perfect 13 for sure dude..."    
+
+}
+    
+if(correct===12)
+    
+{
+    document.getElementById("remark").innerHTML="Just Miss A Perfect Score by one Marks,Don't Worry just try to avoid silly mistakes"    
+
+}
+  
+    
+if(correct===13)
+    
+{
+     document.getElementById("remark").innerHTML="You got it all right.That's Amazing But don't become overconfident. Always Focus on your preparation ...You will rock the paper for sure."     
+
+}
+
+    
+    /*Now we will tell the user about the wrong choices that he or she made.
+    The output here will to the div name wrong to wrong 10*/
+
+if(correct<13)
+
+{
+   document.getElementById("wrong").innerHTML="You have got these questions wrong, Practice Them :"    
+}
+  
+  
+}
+    
+       
+       
+}
+    }//JAB RESULT TIMER ZERO HUA THA...
+    
+    }//master ya result dene wale ka bracket
+
+}//jab timer zero hua tha
+    
+}//begin function    
+
+    
+    
+        
+     //If user clicked the button of  Submit
+    
+    
+
+    </script>
+    <script>
+    
+               var secondsend = 11;/*~~~~~~~~~~~~~~~~~~~~~~~~~*/
+function check()
+    
+{   
+    
+ var final = setTimeout(check,1)
+    var correct = 0
+secondsend--;
+ document.getElementById("10-second-timer").innerHTML="Thanks for playing."+"  "+"Displaing your result in "+" "+secondsend+
+" "+ "seconds"; 
+    document.getElementById("ready").style.display="none";
+document.getElementById("quizzo").style.display="none";    
+// ~~~~~~~~~~~~~~Make a variable correct and set it equal to 0~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    
+//~~~~~~~~~~~~~~~This Variable will tells the score that user get~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  
+ if(secondsend===0)
+ { 
+     clearTimeout(final)
+   document.getElementById("ready").innerHTML="Thanks For Playing ,Here's your result"; 
+/*correct store the score of user*/  ; /*var questions will store value of if else statments*/
+    
+//Then call a variable and set it equal to document.quiz(form name).input option name.value
+    
+var questions1 = document.quiz.option1.value;
+    
+                                            var questions2 = document.quiz.option2.value;
+
+var questions3 = document.quiz.option3.value;
+                                           
+                                            var questions4 = document.quiz.option4.value;
+
+var questions5 = document.quiz.option5.value;
+
+                                            var questions6 = document.quiz.option6.value;
+
+var questions7 = document.quiz.option7.value;
+
+                                            var questions8 = document.quiz.option8.value;
+
+var questions9 = document.quiz.option9.value;
+          
+                                            var questions10 = document.quiz.option10.value;
+
+var questions11= document.getElementById("f11").value;
+    
+                                                      var questions12 = document.getElementById("f22").value;
+
+var questions13= document.getElementById("f33").value;
+    
+/*~~~~~~~~~~~~~~~~~~~~~~~~~``~`~if-else condition begin ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~`~~~~~~~~~~~~~~~~~~~~~
+
+~~~~~~ if value of option is equal to value of if statement then add one in correct variable ~~~~~~~~~~~~~
+
+~~~~~~~~~ else dislay the question number in the div that contain wrong answers ~~~~~~~~~~~~~~~~~~.*/
+    
+if( questions1==="Zero")
+{
+   correct++
+}
+            else
+            { 
+              document.getElementById("wrong1").innerHTML="Question 1"
+            }
+    
+if( questions2==="Potencial")
+{
+  correct++
+}
+            else
+            {
+              document.getElementById("wrong2").innerHTML="Question 2"
+             }         
+       
+    
+if(questions3==="Zero")
+{
+   correct++
+}
+          else
+          {
+            document.getElementById("wrong3").innerHTML="Question 3"
+          }    
+    
+
+if(questions4==="Zero")
+{
+ correct++
+}
+         else
+         {
+           document.getElementById("wrong4").innerHTML="Question 4"
+         }    
+    
+    
+if(questions5==="Conductor")
+{
+   correct++
+}
+        else
+        {
+          document.getElementById("wrong5").innerHTML="Question 5"
+        } 
+    
+if(questions6==="q/6E")
+{
+  correct++
+}
+       else
+       {
+         document.getElementById("wrong6").innerHTML="Question 6"
+       }    
+    
+    
+if(questions7==="No")
+{
+   correct++
+}
+       else
+      {
+        document.getElementById("wrong7").innerHTML="Question 7"
+      }    
+if(questions8==="C")
+{
+ correct++
+}
+     else
+     {
+       document.getElementById("wrong8").innerHTML="Question 8"
+     }
+    
+if(questions9==="q x 2a ")
+{
+   correct++
+}
+    else
+    {
+      document.getElementById("wrong9").innerHTML="Question 9"
+    }      
+                
+if(questions10==="1/10")
+{
+ correct++
+}
+     else
+    {
+      document.getElementById("wrong10").innerHTML="Question 10"
+    }
+    
+/*If Else For Fill Ups #Checking.Begins..hmmmm..............................................................
+......................................We add more than one conditon to simplify the users need for the same*/
+
+if(questions11==="volt"|| questions11==="Volt" || questions11==="VOLT")
+{
+ correct++
+}
+     else
+     {
+       document.getElementById("wrong11").innerHTML="Question11"
+     }
+    
+ if(questions12==="Vector"||questions12==="vector"|| questions12==="VECTOR")
+{
+ correct++
+}
+    else
+    {
+      document.getElementById("wrong12").innerHTML="Question12"           
+    }
+    
+if(questions13==="0"||questions13==="zero"||questions13==="Zero"||questions13==="ZERO")
+{
+ correct++
+}
+    else
+    {
+      document.getElementById("wrong13").innerHTML="Question13"            
+    }
+    
+/* Here comes the result time we will gave a number out of 13 to the user~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~based on the correct answer he or she will get */
+ document.getElementById("score").innerHTML="You have scored"+" "+ correct+" "+"out of 13"
+
+
+if(correct===0)
+    
+{
+ 
+    document.getElementById("remark").innerHTML="My Friend,Your score is quite less but you have enough time to improve and score good .You just have to do combine two things HardWork and Consistency"
+
+}
+
+    
+if(correct==1)
+    
+{
+    
+         document.getElementById("remark").innerHTML="Man,You need to take your studies more seriously.Your score is not so good.But you can improve your score if you want.Just do one thing  that is Study..All the Best for your exams."
+
+}
+    
+if(correct===2)
+    
+{
+     document.getElementById("remark").innerHTML="You have to take your studies seriously .Dude.It's now or never time.In these last moments either you can work hard and get good marks or filled with regrets at result time .Well one thing is certain  the choice is yours So is your result.All the Best Mate.I know you can do it."
+
+}
+    
+if(correct===3)
+    
+{
+    document.getElementById("remark").innerHTML="Your score is below average.Don't Worry Even  If you don't study anything until now ,You can still score good marks.Just Believe in Yourself and Study Regularly. Give it your best shot.All the Best."
+
+}
+    
+if(correct===4)
+
+{
+     document.getElementById("remark").innerHTML="You can get a perfect score .You need to make your concepts strong and hell lot of practice to do questions in exam."
+
+}
+    
+if(correct===5)
+
+{
+    document.getElementById("remark").innerHTML="Do not worry.Just Try Harder.Clear Your Concepts and do a hell lot of practice"
+
+}
+    
+if(correct===6)
+
+{
+  document.getElementById("remark").innerHTML="You have a basic knowledge but still you have to brush up your concepts for the exam and combine it with a lot of practice...Then you will get what you call  a perfect 10."   
+
+}
+    
+if(correct===7)
+
+{
+     document.getElementById("remark").innerHTML="Well you got an average score.Still it means you have some basic knowledge about the concepts,Just require a lot of  practice"
+
+}
+    
+if(correct===8)
+
+{
+      document.getElementById("remark").innerHTML="Well your score is good.Your concept is good but require some practice to score a perfect 13"
+
+}
+    
+if(correct===9)
+
+{
+     document.getElementById("remark").innerHTML="That's a nice score you got there .Keep Going like this with a little more effort ,you can rck the paper"
+
+}
+    
+if(correct===10)
+
+{
+    document.getElementById("remark").innerHTML="You Preparation is going well.But Require a some practice to get a perfect score "      
+
+}
+    
+if(correct===11)
+    
+{
+    document.getElementById("remark").innerHTML="That's a quite nice score .You got there ..Just a little hardwork and then you will score a perfect 13 for sure dude..."    
+
+}
+    
+if(correct===12)
+    
+{
+    document.getElementById("remark").innerHTML="Just Miss A Perfect Score by one Marks,Don't Worry just try to avoid silly mistakes"    
+
+}
+  
+    
+if(correct===13)
+    
+{
+     document.getElementById("remark").innerHTML="You got it all right.That's Amazing But don't become overconfident. Always Focus on your preparation ...You will rock the paper for sure."     
+
+}
+  
+    
+    /*Now we will tell the user about the wrong choices that he or she made.
+    The output here will to the div name wrong to wrong 10*/
+
+if(correct<13)
+
+{
+   document.getElementById("wrong").innerHTML="You have got these questions wrong, Practice Them :"    
+ 
+
+}
+     
+    
+ }
+ 
+    
+else if(secondsend<0)
+        {
+        document.getElementById("10-second-timer").innerHTML="Result is here :"
+        }
+     
+ 
+}
+    //Transistion for Result. 
+    //THE CODE BELOW IS FOR READ MORE AND READ LESS BUTTON.
+                                        function readMore()
+                                        {
+                                                document.getElementById("plus").style.display="none";
+                                                document.getElementById("ultra").style.visibility="visible";
+                                                document.getElementById("beyond").style.display="block";
+                                        }
+            
+function readLess()
+{
+    
+ document.getElementById("plus").style.display="block"
+ document.getElementById("ultra").style.visibility="hidden";
+ document.getElementById("beyond").style.display="none";    
+
+}
+    
+                                     function readMore2()
+                                     {
+                                              document.getElementById("go").style.display="none"
+                                              document.getElementById("ultra2").style.visibility="visible"
+                                              document.getElementById("beyond2").style.display="block";
+                                     }
+    
+function readLess2()
+{
+    document.getElementById("go").style.display="block"
+    document.getElementById("ultra2").style.visibility="hidden"
+    document.getElementById("beyond2").style.display="none"; 
+     
+}
+
+
+    </script>    
+    
+
+</body>
+</html>
+    
+    
+    
+    
+    
